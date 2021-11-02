@@ -42,12 +42,15 @@ static const Rule rules[] = {
 	{ "Microsoft-edge",     NULL,       NULL,       1 << 2,         1,              0,          -1 },
 	{ "Google-chrome",      NULL,       NULL,       1 << 2,         1,              0,          -1 },
 	{ "Virt-manager",       NULL,       NULL,       1 << 6,         1,              1           -1 },
-    { "Gimp",               NULL,       NULL,       1 << 7,         1,              1,          -1 },
+	{ "Gimp",               NULL,       NULL,       1 << 7,         1,              1,          -1 },
 	{ "zoom",               NULL,       NULL,       1 << 7,         1,              1,          -1 },
+	{ "Minecraft Launcher", NULL,       NULL,       1 << 7,         1,              1,          -1 },
 	{ "Wine",               NULL,       NULL,       1 << 8,         1,              1           -1 },
 	{ "Spotify",            NULL,       NULL,       1 << 8,         1,              1           -1 },
 	{ "Steam",              NULL,       NULL,       1 << 8,         1,              1,          -1 },
-	{ "Minecraft Launcher", NULL,       NULL,       1 << 8,         1,              1,          -1 },
+	{ "TelegremDesktop",    NULL,       NULL,       1 << 8,         1,              1,          -1 },
+	{ "qBittorrent",        NULL,       NULL,       1 << 8,         1,              1,          -1 },
+	{ "Uget-gtk",           NULL,       NULL,       1 << 8,         1,              1,          -1 },
 	{ "OSD Lyrics",         NULL,       NULL,       0,              0,              1,          -1 },
 
 };
